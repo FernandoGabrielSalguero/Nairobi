@@ -2500,3 +2500,9 @@ textarea.input-field {
     }
 
 }
+
+
+.marcaNairobi{
+    filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+

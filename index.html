@@ -6,58 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- 
-    - primary meta tags
-  -->
-    <title>Grilli - Amazing & Delicious Food</title>
-    <meta name="title" content="Grilli - Amazing & Delicious Food">
-    <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+    <!-- ETIQUETAS GOOGLE   -->
+    <title>Nairobi Lounge Bar</title>
+    <meta name="title" content="Nairobi Lounge Bar">
+    <meta name="description" content="Amplia propuesta en Coctelería, Gastronimia local y Cafetería">
 
-    <!-- 
-    - favicon
-  -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-    <!-- 
-    - google font link
-  -->
+    <!-- favicon  --> 
+    <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/svg+xml">
+
+    <!-- Fuentes de google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
 
-    <!-- 
-    - custom css link
-  -->
+
+
+    <!-- ESTILOS PERSONALIZADOS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- 
-    - preload images
-  -->
-    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
-    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
-    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+    <!-- preload images  -->
+    <link rel="preload" as="image" href="./assets/img/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="./assets/img/hero-slider-2.jpg">
+    <link rel="preload" as="image" href="./assets/img/hero-slider-3.jpg">
 
 </head>
 
 <body id="top">
 
-    <!-- 
-    - #PRELOADER
-  -->
+    <!-- IMAGEN DE CARGA -->
 
     <div class="preload" data-preaload>
         <div class="circle"></div>
-        <p class="text">Grilli</p>
+        <p class="text">NAIROBI</p>
     </div>
 
 
 
 
 
-    <!-- 
-    - #TOP BAR
-  -->
+    <!-- BARRA SUPERIOR  -->
 
     <div class="topbar">
         <div class="container">
@@ -67,8 +55,9 @@
                     <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
                 </div>
 
+
                 <span class="span">
-                    Restaurant St, Delicious City, London 9578, UK
+                    Suipacha 238 - Sexta Sección - Mendoza
                 </span>
             </address>
 
@@ -79,26 +68,18 @@
                     <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
                 </div>
 
-                <span class="span">Daily : 8.00 am to 10.00 pm</span>
+                <span class="span">Apertura 8:00 am - Cierre 00:00</span>
             </div>
 
-            <a href="tel:+11234567890" class="topbar-item link">
+            <a href="tel:+5492615545472" class="topbar-item link">
                 <div class="icon">
                     <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
                 </div>
 
-                <span class="span">+1 123 456 7890</span>
+                <span class="span">2615545472</span>
             </a>
 
             <div class="separator"></div>
-
-            <a href="mailto:booking@restaurant.com" class="topbar-item link">
-                <div class="icon">
-                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <span class="span">booking@restaurant.com</span>
-            </a>
 
         </div>
     </div>
@@ -107,15 +88,13 @@
 
 
 
-    <!-- 
-    - #HEADER
-  -->
+    <!-- HEADER -->
 
     <header class="header" data-header>
         <div class="container">
 
-            <a href="#" class="logo">
-                <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+            <a href="#carta" class="logo">
+                <img src="./assets/img/logo.svg" width="160" height="50" alt="Grilli - Home" class="marcaNairobi">
             </a>
 
             <nav class="navbar" data-navbar>
@@ -124,82 +103,62 @@
                     <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
                 </button>
 
-                <a href="#" class="logo">
-                    <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+                <a href="#inicio" class="logo">
+                    <img src="./assets/img/logo.svg" width="160" height="50" class="marcaNairobi" alt="Nairobi - Home">
                 </a>
 
                 <ul class="navbar-list">
 
                     <li class="navbar-item">
-                        <a href="#home" class="navbar-link hover-underline active">
+                        <a href="#inicio" class="navbar-link hover-underline active">
                             <div class="separator"></div>
 
-                            <span class="span">Home</span>
+                            <span class="span">Inicio</span>
                         </a>
                     </li>
 
                     <li class="navbar-item">
-                        <a href="#menu" class="navbar-link hover-underline">
+                        <a href="#carta" class="navbar-link hover-underline">
                             <div class="separator"></div>
 
                             <span class="span">Menus</span>
                         </a>
                     </li>
 
-                    <li class="navbar-item">
-                        <a href="#about" class="navbar-link hover-underline">
-                            <div class="separator"></div>
-
-                            <span class="span">About Us</span>
-                        </a>
-                    </li>
 
                     <li class="navbar-item">
                         <a href="#" class="navbar-link hover-underline">
                             <div class="separator"></div>
 
-                            <span class="span">Our Chefs</span>
+                            <span class="span">Reservas</span>
                         </a>
                     </li>
 
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link hover-underline">
-                            <div class="separator"></div>
-
-                            <span class="span">Contact</span>
-                        </a>
-                    </li>
 
                 </ul>
 
                 <div class="text-center">
-                    <p class="headline-1 navbar-title">Visit Us</p>
+                    <p class="headline-1 navbar-title">Visitanos</p>
 
                     <address class="body-4">
-                        Restaurant St, Delicious City, <br>
-                        London 9578, UK
+                        Suipacha 238 - Sexta Sección, <br>
+                        Mendoza
                     </address>
 
-                    <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+                    <p class="body-4 navbar-text">Apertura 8:00 am - Cierre 00:00</p>
 
-                    <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
 
                     <div class="separator"></div>
 
-                    <p class="contact-label">Booking Request</p>
+                    <p class="contact-label">¡Hace tu reserva!</p>
 
-                    <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
-                        +88-123-123456
+                    <a href="tel:+5492615545472" class="body-1 contact-number hover-underline">
+                        2615545472
                     </a>
                 </div>
 
             </nav>
 
-            <a href="#" class="btn btn-secondary">
-                <span class="text text-1">Find A Table</span>
-
-                <span class="text text-2" aria-hidden="true">Find A Table</span>
-            </a>
 
             <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
                 <span class="line line-1"></span>
@@ -215,13 +174,11 @@
 
 
 
-
+<!-- SECCIÓN PRINCIPAL -->
     <main>
         <article>
 
-            <!-- 
-        - #HERO
-      -->
+            <!-- #HERO   -->
 
             <section class="hero text-center" aria-label="home" id="home">
 
@@ -230,25 +187,25 @@
                     <li class="slider-item active" data-hero-slider-item>
 
                         <div class="slider-bg">
-                            <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt=""
-                                class="img-cover">
+                            <img src="./assets/img/coctail (4).jpg" width="1880" height="950" alt="Imagen ilustrativa"
+                                class="img-cover img-oscuro">
                         </div>
 
-                        <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
+                        <p class="label-2 section-subtitle slider-reveal">Tragos refrescantes</p>
 
                         <h1 class="display-1 hero-title slider-reveal">
-                            For the love of <br>
-                            delicious food
+                            La mejor cocteleria <br>
+                            del país
                         </h1>
 
                         <p class="body-2 hero-text slider-reveal">
-                            Come with family & feel the joy of mouthwatering food
+                            Veni y proba nuestros mejores tragos preparados por los mejores profesionales
                         </p>
 
-                        <a href="#" class="btn btn-primary slider-reveal">
-                            <span class="text text-1">View Our Menu</span>
+                        <a href="#carta" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">Visita nuestro menú</span>
 
-                            <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                            <span class="text text-2" aria-hidden="true">Visita nuestro menú</span>
                         </a>
 
                     </li>
@@ -256,25 +213,25 @@
                     <li class="slider-item" data-hero-slider-item>
 
                         <div class="slider-bg">
-                            <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt=""
+                            <img src="./assets/img/cafe (4).jpg" width="1880" height="950" alt=""
                                 class="img-cover">
                         </div>
 
-                        <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+                        <p class="label-2 section-subtitle slider-reveal">Barista</p>
 
                         <h1 class="display-1 hero-title slider-reveal">
-                            Flavors Inspired by <br>
-                            the Seasons
+                            Cafes inspirados en las <br>
+                            mejores sensaciones
                         </h1>
 
                         <p class="body-2 hero-text slider-reveal">
-                            Come with family & feel the joy of mouthwatering food
+                            Café de primera calidad
                         </p>
 
-                        <a href="#" class="btn btn-primary slider-reveal">
-                            <span class="text text-1">View Our Menu</span>
+                        <a href="#carta" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">Visita nuestro menú</span>
 
-                            <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                            <span class="text text-2" aria-hidden="true">Visita nuestro menú</span>
                         </a>
 
                     </li>
@@ -282,31 +239,33 @@
                     <li class="slider-item" data-hero-slider-item>
 
                         <div class="slider-bg">
-                            <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt=""
+                            <img src="./assets/img/hero-slider-3.jpg" width="1880" height="950" alt=""
                                 class="img-cover">
                         </div>
 
-                        <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+                        <p class="label-2 section-subtitle slider-reveal">Cocina local</p>
 
                         <h1 class="display-1 hero-title slider-reveal">
-                            Where every flavor <br>
-                            tells a story
+                            Proba nuestros mejores platos <br>
+                            preparados para vos.
                         </h1>
 
                         <p class="body-2 hero-text slider-reveal">
-                            Come with family & feel the joy of mouthwatering food
+                            Nuestros mejores cheffs a tu servicio
                         </p>
 
-                        <a href="#" class="btn btn-primary slider-reveal">
-                            <span class="text text-1">View Our Menu</span>
+                        <a href="#carta" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">Visita nuestro menú</span>
 
-                            <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                            <span class="text text-2" aria-hidden="true">Visita nuestro menú</span>
                         </a>
 
                     </li>
 
                 </ul>
 
+
+                <!-- BOTON DE ACCIÓN  -->
                 <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
                     <ion-icon name="chevron-back"></ion-icon>
                 </button>
@@ -315,10 +274,10 @@
                     <ion-icon name="chevron-forward"></ion-icon>
                 </button>
 
-                <a href="#" class="hero-btn has-after">
-                    <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+                <a href="tel:+5492615545472" class="hero-btn has-after">
+                    <img src="./assets/img/WhatsApp.png" width="48" height="48" alt="booking icon">
 
-                    <span class="label-2 text-center span">Book A Table</span>
+                    <span class="label-2 text-center span">Hace tu reserva</span>
                 </a>
 
             </section>
@@ -327,11 +286,9 @@
 
 
 
-            <!-- 
-        - #SERVICE
-      -->
+            <!--  MENU    -->
 
-            <section class="section service bg-black-10 text-center" aria-label="service">
+            <section class="section service bg-black-10 text-center" aria-label="service" id="carta">
                 <div class="container">
 
                     <p class="section-subtitle label-2">Flavors For Royalty</p>
@@ -417,9 +374,10 @@
 
                     </ul>
 
-                    <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+                    <!-- IMAGENES VECTORIALES DE FONDO -->
+                    <img src="./assets/img/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
                         class="shape shape-1 move-anim">
-                    <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+                    <img src="./assets/img/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
                         class="shape shape-2 move-anim">
 
                 </div>
@@ -429,9 +387,7 @@
 
 
 
-            <!-- 
-        - #ABOUT
-      -->
+            <!--  #ABOUT      -->
 
             <section class="section about text-center" aria-labelledby="about-label" id="about">
                 <div class="container">
@@ -1233,7 +1189,7 @@
     <!-- 
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/main.js"></script>
 
     <!-- 
     - ionicon link
