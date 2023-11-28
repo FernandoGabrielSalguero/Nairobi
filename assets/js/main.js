@@ -168,3 +168,29 @@ window.addEventListener("mousemove", function (event) {
     }
 
 });
+
+
+
+// ENVIAR TEXTO POR WHATSAPP
+
+function prepareWhatsAppMessage() {
+    var name = document.querySelector('input[name="name"]').value;
+    var phone = document.querySelector('input[name="phone"]').value;
+    var person = document.querySelector('select[name="person"]').value;
+    var date = document.querySelector('input[name="date"]').value;
+    var time = document.querySelector('select[name="time"]').value;
+    var message = document.querySelector('textarea[name="message"]').value;
+
+    var whatsappMessage = "Reserva:\n" +
+        "Nombre: " + name + "\n" +
+        "Teléfono: " + phone + "\n" +
+        "Personas: " + person + "\n" +
+        "Fecha: " + date + "\n" +
+        "Hora: " + time + "\n" +
+        "Mensaje: " + message;
+    var encodedMessage = encodeURIComponent(whatsappMessage);
+
+    var whatsappURL = "https://wa.me/2613055907?text=" + encodedMessage;
+
+    window.open(whatsappURL, "_blank");
+}
