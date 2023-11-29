@@ -188,5 +188,5 @@ function prepareWhatsAppMessage() {
 
         console.log(whatsappMessage);
 
-    window.location.href = "https://wa.me/2613055907?text=" + whatsappMessage, "_blank";
+    window.location.href = "https://wa.me/2615545472?text=" + whatsappMessage;
 }
