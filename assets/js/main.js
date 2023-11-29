@@ -190,3 +190,16 @@ function prepareWhatsAppMessage() {
 
     window.location.href = "https://wa.me/2615545472?text=" + whatsappMessage;
 }
+
+// Funcion para ingresar a la seccion oculta
+
+function showPasswordPrompt() {
+    var password = prompt("Ingrese la contraseña:");
+
+    if (password === "nairobi2023") {
+        window.location.href = "./assets/giftCard/giftCard.html";
+    } else {
+
+        alert("Contraseña incorrecta. Inténtelo de nuevo.");
+    }
+}

@@ -29,16 +29,26 @@ El boton flotante, ya redirecciona a la sección de reservas
 Ya estan vinculadas las opciones de menu en el footer. Ya esta vinculada la red social "Instagram" en el boton
 <p>
 
+* Apartado de carta
+<p>
+Ya esta terminado la vinculación de cada imagen, título y subtítulo con cada menú correspondiente
+<p>
+
+* Sección oculta
+<p>
+Ya esta creada la sección oculta, con el requisito de la contraseña para ingresar.
+<p>
 
 ### Secciones que faltan construir:
-> Sección oculta
+> Gift Card
+
 <p>
-Crear una sección que al ingresar, solicite contraseña y permita generar una GIF CARD y descargarlo como PDF (en lo posible que se pueda descargar)
+Investigar como hacer que la GIFT CARD generada por el formulario se convierta en un PDF y se pueda descargar.
 <p>
 
-> Vincular Cartas
+> Menú
 <p>
-En el menu, hay que vincular cada sección con cada menu correspondiente. 
+Modificar cada carta con sus platos o bebidas correspondientes
 <p>
 
 
