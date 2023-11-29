@@ -6,17 +6,19 @@ Esta es la muestra de Langing Page con Carta de precios incluida para nuestro cl
 ## Tecnologias utilizadas
 - HTML
 - CSS
-* JS
-* JS
+- JS
 
 ## Secciones construidas:
-*Menu
-*Footer
+* Menu
+* Footer
 
 
 ### Secciones que faltan construir:
 > Sección oculta
-> Formulario
+- Crear una sección que al ingresar, solicite contraseña y permita generar una GIF CARD
 
 ####
-$ prueba 
+> Sección oculta
+<p>
+Crear una sección que al ingresar, solicite contraseña y permita generar una GIF CARD
+<p>
