@@ -4,14 +4,18 @@ Esta es la muestra de Langing Page con Carta de precios incluida para nuestro cl
 <p>
 
 ## Tecnologias utilizadas
--HTML
--CSS
--JS
+*HTML
+*CSS
+*JS
 
 ## Secciones construidas:
--Menu
--Footer
+*Menu
+*Footer
 
 
 ### Secciones que faltan construir:
+> Sección oculta
+> Formulario
 
+####
+$ prueba 
