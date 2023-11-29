@@ -48,6 +48,6 @@ En el menu, hay que vincular cada sección con cada menu correspondiente.
 <p>
 The resource http://127.0.0.1:5500/assets/img/hero-slider-2.jpg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
 <p>
-* Revisar que es y como solucionarlo
+- Revisar que es y como solucionarlo
 
 
