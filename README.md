@@ -31,3 +31,8 @@ Ya estan vinculadas las opciones de menu en el footer. Ya esta vinculada la red 
 Crear una sección que al ingresar, solicite contraseña y permita generar una GIF CARD
 <p>
 
+> Vincular Cartas
+<p>
+En el menu, hay que vincular cada sección con cada menu correspondiente. 
+<p>
+

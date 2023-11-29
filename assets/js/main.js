@@ -171,7 +171,7 @@ window.addEventListener("mousemove", function (event) {
 
 
 
-// ENVIAR TEXTO POR WHATSAPP
+// ENVIAR FORMULARIO DE RESERVA POR WHATSAPP
 function prepareWhatsAppMessage() {
     // Obtener los valores del formulario
     var name = encodeURIComponent(document.querySelector('input[name="name"]').value);
