@@ -172,25 +172,21 @@ window.addEventListener("mousemove", function (event) {
 
 
 // ENVIAR TEXTO POR WHATSAPP
-
 function prepareWhatsAppMessage() {
-    var name = document.querySelector('input[name="name"]').value;
-    var phone = document.querySelector('input[name="phone"]').value;
-    var person = document.querySelector('select[name="person"]').value;
-    var date = document.querySelector('input[name="date"]').value;
-    var time = document.querySelector('select[name="time"]').value;
-    var message = document.querySelector('textarea[name="message"]').value;
+    // Obtener los valores del formulario
+    var name = encodeURIComponent(document.querySelector('input[name="name"]').value);
+    var phone = encodeURIComponent(document.querySelector('input[name="phone"]').value);
+    var person = encodeURIComponent(document.querySelector('select[name="person"]').value);
+    var date = encodeURIComponent(document.querySelector('input[name="reservation-date"]').value);
+    var time = encodeURIComponent(document.querySelector('select[name="time"]').value);
+    var message = encodeURIComponent(document.querySelector('textarea[name="message"]').value);
 
-    var whatsappMessage = "Reserva:\n" +
-        "Nombre: " + name + "\n" +
-        "Teléfono: " + phone + "\n" +
-        "Personas: " + person + "\n" +
-        "Fecha: " + date + "\n" +
-        "Hora: " + time + "\n" +
-        "Mensaje: " + message;
-    var encodedMessage = encodeURIComponent(whatsappMessage);
 
-    var whatsappURL = "https://wa.me/2613055907?text=" + encodedMessage;
+    var whatsappMessage = "¡Hola! Quiero hacer una reserva.%0A%0A" +
+        "Mi nombre es: " + name + ", mi celu es: " + phone + ", somos: " + person +
+        ", queremos ir el día: " + date + " a la hora: " + time + ". Además: " + message;
 
-    window.open(whatsappURL, "_blank");
+        console.log(whatsappMessage);
+
+    window.location.href = "https://wa.me/2613055907?text=" + whatsappMessage, "_blank";
 }
