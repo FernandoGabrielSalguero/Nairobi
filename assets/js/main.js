@@ -203,3 +203,15 @@ function showPasswordPrompt() {
         alert("Contraseña incorrecta. Inténtelo de nuevo.");
     }
 }
+
+// PRELOAD IMAGE
+window.onload = function() {
+    var img1 = new Image();
+    img1.src = "./assets/img/hero-slider-1.jpg";
+
+    var img2 = new Image();
+    img2.src = "./assets/img/hero-slider-2.jpg";
+
+    var img3 = new Image();
+    img3.src = "./assets/img/hero-slider-3.jpg";
+};

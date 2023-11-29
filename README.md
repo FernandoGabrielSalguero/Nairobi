@@ -34,18 +34,12 @@ Ya estan vinculadas las opciones de menu en el footer. Ya esta vinculada la red 
 Ya esta terminado la vinculación de cada imagen, título y subtítulo con cada menú correspondiente
 <p>
 
-* Sección oculta
+* Zona Segura
 <p>
 Ya esta creada la sección oculta, con el requisito de la contraseña para ingresar.
 <p>
 
 ### Secciones que faltan construir:
-> Gift Card
-
-<p>
-Investigar como hacer que la GIFT CARD generada por el formulario se convierta en un PDF y se pueda descargar.
-<p>
-
 > Menú
 <p>
 Modificar cada carta con sus platos o bebidas correspondientes
@@ -54,11 +48,16 @@ Modificar cada carta con sus platos o bebidas correspondientes
 
 
 #### Errores de la página para revisar
+
+
+
+
+#### Errores de la página REVISADOS
 > Alerta por consola
 <p>
 The resource http://127.0.0.1:5500/assets/img/hero-slider-2.jpg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
 <p>
 
-- Revisar que es y como solucionarlo
+- Se soluciono retrasando la carga de las imagenes con la función "window.onload" en el main.js
 
 
