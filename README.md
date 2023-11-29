@@ -33,7 +33,7 @@ Ya estan vinculadas las opciones de menu en el footer. Ya esta vinculada la red 
 ### Secciones que faltan construir:
 > Sección oculta
 <p>
-Crear una sección que al ingresar, solicite contraseña y permita generar una GIF CARD
+Crear una sección que al ingresar, solicite contraseña y permita generar una GIF CARD y descargarlo como PDF (en lo posible que se pueda descargar)
 <p>
 
 > Vincular Cartas
