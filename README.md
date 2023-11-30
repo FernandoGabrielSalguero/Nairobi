@@ -3,6 +3,9 @@
 Esta es la muestra de Langing Page con Carta de precios incluida para nuestro cliente
 <p>
 
+## YA ESTA SUBIDO Y CON DESPLIEGUE CONTINUO LINK:
+> https://fernandosalguero.com/Nairobi/#
+
 ## Tecnologias utilizadas
 - HTML
 - CSS
