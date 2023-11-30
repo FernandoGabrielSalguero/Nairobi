@@ -43,9 +43,9 @@ Ya esta creada la sección oculta, con el requisito de la contraseña para ingre
 <p>
 
 ### Secciones que faltan construir:
-> Menú
+> Nav hamburguesa
 <p>
-Modificar cada carta con sus platos o bebidas correspondientes
+Averiguar porque no deja scrollear
 <p>
 
 

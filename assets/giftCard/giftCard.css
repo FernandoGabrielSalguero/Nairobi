@@ -137,12 +137,77 @@ body{
   }
 
 
-.card-contenedor{
+
+
+  .contenedor-card {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.section-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+
+    background: url(./img/card.png) no-repeat center center;
+    background-size: 100% 30rem;
+    height: 50%;
+}
+
+.card-contenedor {
+    margin-bottom: 20px; /* Puedes ajustar este margen según tus necesidades */
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+}
+
+.logo-gifCard {
+    filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+    margin-bottom: 1rem;
+}
+
+.titulo-card {
+    font-size: 80px;
+    font-family: Raleway, sans-serif;
+    color: #D4AF37;
+}
+
+.datos-card {
+    margin-bottom: 20px; /* Ajusta según tus necesidades */
+}
+
+#nombre-card{
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffff;
+}
+
+#producto-card{
+    font-family: Raleway, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #ffff;
     margin-top: 2rem;
 }
 
-.card{
+#vencimiento-card {
+    font-family: Raleway, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #ffff;
+    margin-top: 5rem;
+    margin-left: 15rem;
+
+}
+
+/* .card{
     
     width: 100%;
     height: 400px;
@@ -152,7 +217,8 @@ body{
     filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(175deg);
     position: relative;
     bottom: 26rem;
-    left: 3.7rem;
+    left: 6.5rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -199,4 +265,4 @@ body{
     font-weight: 200;
     font-size: 16px;
     color: #ffff
-}
+} */

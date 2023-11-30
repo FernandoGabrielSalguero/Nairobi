@@ -2,14 +2,12 @@ const divGiftCard = document.querySelector('.contenedor-card');
 
 const htmlCard = (dato1, dato2, dato3) => {
   const card = `
-    <section>
-        <div class="card-contenedor">
-            <img src="./img/card.png" class="card">
-        </div>
+    <section class="section-card">
+        
 
         <div class="info-card">
             <div>
-                <img class="logo-gifCard" src="./img/logo.svg" width="200" height="150"">
+                <img class="logo-gifCard" src="./img/logo.svg" width="250" height="180"">
             </div>
 
             <div class="datos-card">
