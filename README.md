@@ -43,10 +43,7 @@ Ya esta creada la sección oculta, con el requisito de la contraseña para ingre
 <p>
 
 ### Secciones que faltan construir:
-> Nav hamburguesa
-<p>
-Averiguar porque no deja scrollear
-<p>
+
 
 
 
@@ -55,7 +52,7 @@ Averiguar porque no deja scrollear
 
 
 
-#### Errores de la página REVISADOS
+#### Errores de la página REVISADOS y SOLUCIONADOS
 > Alerta por consola
 <p>
 The resource http://127.0.0.1:5500/assets/img/hero-slider-2.jpg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
@@ -63,4 +60,9 @@ The resource http://127.0.0.1:5500/assets/img/hero-slider-2.jpg was preloaded us
 
 - Se soluciono retrasando la carga de las imagenes con la función "window.onload" en el main.js
 
+> Nav hamburguesa
+<p>
+Averiguar porque no deja scrollear
+<p>
 
+- Se soluciono identificando el problema. El menú quedaba abierto cuando te redireccionaba a la sección correspondiente. Solo se le aplico un Toggle para que cambie el estado del menú. Y listo <3

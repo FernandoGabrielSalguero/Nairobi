@@ -2573,3 +2573,9 @@ textarea.input-field {
         
     }
 }
+
+/* Icono Sin tacc */
+.Sin-tacc{
+height: 30px;
+filter: invert(1);
+}
