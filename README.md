@@ -44,7 +44,10 @@ Ya esta creada la sección oculta, con el requisito de la contraseña para ingre
 
 ### Secciones que faltan construir:
 
-
+* Menú
+<p>
+Falta agregar al menú: SOLITARIOS - PANADERIA/PASTELERÍA - CROISSANT RELLENO - ENTRADAS - POSTRES - BEBIDAS SIN ALCOHOL - BEBIDAS CON ALCOHOL - SIN TACC - CARTA DE VINOS - CARTA DE TRAGOS - HAPPY HOURS
+<p>
 
 
 #### Errores de la página para revisar
