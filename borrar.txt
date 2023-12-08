@@ -1,0 +1,48 @@
+<section class="section menu" aria-label="menu-label" id="cartaBrunches">
+                <div class="container">
+
+                    <p class="section-subtitle text-center label-2"></p>
+
+                    <h2 id="solitarios" class="headline-1 section-title text-center">Solitarios</h2>
+
+                    <ul class="grid-list">
+
+                        
+
+                    </ul>
+
+                    <a href="#carta" class="btn btn-primary">
+                        <span class="text text-1">Nuestro Menú</span>
+
+                        <span class="text text-2" aria-hidden="true">Nuestro Menú</span>
+                    </a>
+
+                    <img src="./assets/img/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+                        class="shape shape-2 move-anim">
+                    <img src="./assets/img/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+                        class="shape shape-3 move-anim">
+
+                </div>
+            </section>
+
+
+            EL <LI> DONDE VA CADA PRODUCTO:
+
+            <li>
+                            <div class="menu-card hover:card">
+                                <div>
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a class="card-title">MENÚ INFANTIL</a>
+                                            <span class="badge label-1">hasta 10 años</span>
+                                        </h3>
+                                        <span class="span title-2">$2600</span>
+                                    </div>
+                                    <p class="card-text label-1">
+                                        Milanesitas de pollo con papas fritas
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+
