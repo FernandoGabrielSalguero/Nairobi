@@ -179,12 +179,13 @@ function prepareWhatsAppMessage() {
     var person = encodeURIComponent(document.querySelector('select[name="person"]').value);
     var date = encodeURIComponent(document.querySelector('input[name="reservation-date"]').value);
     var time = encodeURIComponent(document.querySelector('select[name="time"]').value);
+    var ubi = encodeURIComponent(document.querySelector('select[name="ubi"]').value);
     var message = encodeURIComponent(document.querySelector('textarea[name="message"]').value);
 
 
     var whatsappMessage = "¡Hola! Quiero hacer una reserva.%0A%0A" +
         "Mi nombre es: " + name + ", mi celu es: " + phone + ", somos: " + person +
-        ", queremos ir el día: " + date + " a la hora: " + time + ". Además: " + message;
+        ", queremos ir el día: " + date + " a la hora: " + time + ". Nos gustaria estar en: " + ubi + ". Además: " + message;
 
         console.log(whatsappMessage);
 
@@ -196,7 +197,7 @@ function prepareWhatsAppMessage() {
 function showPasswordPrompt() {
     var password = prompt("Ingrese la contraseña:");
 
-    if (password === "nairobi2023") {
+    if (password === "nairobi.2023") {
         window.location.href = "./assets/giftCard/giftCard.html";
     } else {
 
