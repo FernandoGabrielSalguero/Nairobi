@@ -50,7 +50,11 @@ Falta agregar al menú: SOLITARIOS - PANADERIA/PASTELERÍA - CROISSANT RELLENO -
 <p>
 
 
-
+#### Sugerencias del cliente:
+> El horario de apertura es de 8:30 a 00:00hs (lunes  a jueves) de viernes a sabado es de 8:30 a 1:30 hs los domingos abre a las 8:30 a 00:00 hs 
+> Horario de desayuno: 8:30 a 12:00
+> Horario de almuerzo:
+> Horario de Cena: 
 
 
 
