@@ -77,3 +77,9 @@ Averiguar porque no deja scrollear
 <p>
 
 - Se soluciono identificando el problema. El menú quedaba abierto cuando te redireccionaba a la sección correspondiente. Solo se le aplico un Toggle para que cambie el estado del menú. Y listo <3
+
+
+
+
+ git config --global user.email "fernandosalguero685@gmail.com"
+ git config --global user.name "FernandoGabrielSalguero"
