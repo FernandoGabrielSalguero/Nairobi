@@ -7,7 +7,7 @@ const htmlCard = (dato1, dato2, dato3) => {
 
         <div class="info-card">
             <div>
-                <img class="logo-gifCard" src="./img/logo.svg" width="250" height="400"">
+                <img class="logo-gifCard" src="./img/logo.svg" width="250" height="180"">
             </div>
 
             <div class="datos-card">
